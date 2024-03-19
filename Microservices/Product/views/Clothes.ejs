@@ -1,0 +1,38 @@
+<!-- clothing.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Items</title>
+    <style>
+        /* Card styles */
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Loop through each clothing item and display it in a card -->
+<% data.clothing.forEach(item => { %>
+    <div class="card">
+        <h2><%= item.name %></h2>
+        <p>Price: <%= item.Price %></p>
+        <p>Rating: <%= item.Rating %></p>
+    </div>
+<% }); %>
+
+</body>
+</html>

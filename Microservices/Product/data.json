@@ -1,0 +1,47 @@
+{
+    "electronics": [
+      {
+        "name": "Lenovo Laptop",
+        "Price": 25000,
+        "Rating": "5 Star"
+      },
+      {
+        "name": "Samsung Mobile",
+        "Price": 15000,
+        "Rating": "4 Star"
+      },
+      {
+        "name": "Intel CPU",
+        "Price": 300,
+        "Rating": "4.5 Star"
+      },
+      {
+        "name": "Sony TV",
+        "Price": 500,
+        "Rating": "4.8 Star"
+      }
+    ],
+    "clothing": [
+      {
+        "name": "Adidas T-Shirt",
+        "Price": 25,
+        "Rating": "4.2 Star"
+      },
+      {
+        "name": "Levi's Jeans",
+        "Price": 50,
+        "Rating": "4.5 Star"
+      },
+      {
+        "name": "Nike Sneakers",
+        "Price": 80,
+        "Rating": "4.8 Star"
+      },
+      {
+        "name": "Calvin Klein Dress",
+        "Price": 100,
+        "Rating": "4.3 Star"
+      }
+    ]
+  }
+  
